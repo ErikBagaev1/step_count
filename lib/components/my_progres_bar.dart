@@ -25,7 +25,7 @@ class MyProgresBar extends StatelessWidget {
           ),
           const SizedBox(
               height:
-                  8), // Добавляем небольшое пространство между индикатором и информацией
+                  8),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

@@ -11,8 +11,7 @@ class MyPauseButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ButtonStyle(
-        backgroundColor:
-            WidgetStateProperty.all<Color>(Colors.blue), // Цвет фона кнопки
+        backgroundColor: WidgetStateProperty.all<Color>(Colors.blue),
         foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
       ),
       onPressed: onPressed,
