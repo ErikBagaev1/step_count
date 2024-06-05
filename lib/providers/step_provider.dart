@@ -32,6 +32,7 @@ class StepProvider with ChangeNotifier {
         notifyListeners();
       }
     });
+    notifyListeners();
   }
 
   void setGoal(int goal) {
